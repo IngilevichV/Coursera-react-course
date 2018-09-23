@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ebcd5bf-185e-4b6e-b528-e0a194763339" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DishDetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishDetailComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
-    </list>
+    <list default="true" id="7ebcd5bf-185e-4b6e-b528-e0a194763339" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -205,15 +200,15 @@
       <workItem from="1536822979896" duration="303000" />
       <workItem from="1536824893890" duration="22170000" />
       <workItem from="1537029933749" duration="30942000" />
-      <workItem from="1537715958370" duration="6430000" />
+      <workItem from="1537715958370" duration="6746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78228000" />
+    <option name="totallyTimeSpent" value="78544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-7" width="1487" height="878" extended-state="6" />
+    <frame x="56" y="-7" width="1487" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24983028" />
