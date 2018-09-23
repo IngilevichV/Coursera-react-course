@@ -12,7 +12,6 @@ class Header extends Component {
             isNavOpen: false,
             isModalOpen: false
         };
-
     }
 
     toggleNav() {
@@ -31,7 +30,6 @@ class Header extends Component {
         event.preventDefault();
         this.toggleModal();
         alert("Username: " + this.username.value + " Password: " + this.password.value + " Remember: " + this.remember.checked);
-
     }
 
     render() {
