@@ -26,8 +26,8 @@ class CommentForm extends Component {
     }
 
     handleSubmit(values) {
-        console.info(JSON.stringify(values));
-        alert(JSON.stringify(values));
+        // alert(JSON.stringify(values));
+        this.props.addComment(this.props.dishId, values.rating, values.yourname, values.message)
     }
 
     render() {
@@ -80,7 +80,6 @@ class CommentForm extends Component {
 }
 
 function RenderDish(props) {
-    console.info(props);
     if (props.dish != null)
         return(
             <Card>
@@ -98,7 +97,6 @@ function RenderDish(props) {
 }
 
 function RenderComments(comments) {
-    console.info(comments["dish"]);
     const monthNames = [
         "Jan", "Feb", "Mar",
         "Apr", "May", "Jun", "Jul",
@@ -122,7 +120,7 @@ function RenderComments(comments) {
             <div className="comment">
                 <h4>Comments</h4>
                 <ul className={"list-unstyled"}>{comment}</ul>
-                <CommentForm/>
+                <CommentForm dishId={comments["dishId"]} addComment={comments["addComment"]}/>
             </div>
         )
     } else {
@@ -155,11 +153,13 @@ const DishDetail = (props) => {
                     <RenderDish dish={props.dish}/>
                 </div>
                 <div  className="col-12 col-md-5 m-1">
-                    <RenderComments dish={props.comment}/>
+                    <RenderComments dish={props.comment}
+                    addComment = {props.addComment}
+                    dishId={props.dish.id}/>
                 </div>
             </div>
         </div>
     );
-}
+};
 
 export default DishDetail;
